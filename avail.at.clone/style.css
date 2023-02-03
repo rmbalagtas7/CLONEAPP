@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+body {
+    margin: 0;
+
+}
+
+.navBarDefault {
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    top: 0;
+    /* background-color: #FAFAFA; */
+    background-color: pink;
+}
+
+.navItemsContainer {
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    position: fixed;
+}
+
+.logo {
+    height: 80px;
+    width: 200px;
+    margin-top: 20px;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.navListContainer {
+    width: 600px;
+    height: 60px;
+    float: right;
+    margin-top: -75px;
+    margin-right: 100px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    content: "";
+    color: red;
+    padding-bottom: 20px;
+    border-bottom: red solid 5px;
+}
+
+.home {
+    background-color: red;
+    width: 100%;
+    height: 800px;
+    margin-top: 120 px;
+    top: 0;
+}
+
+.clients {
+    background-color: orange;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    margin-top: 23px;
+}
+
+.services {
+    background-color: yellow;
+    width: 100%;
+    height: 800px;
+    margin-top: 0;
+}
+
+.aboutUs {
+    background-color: green;
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    margin-top: 0;
+
+}
+
+.contactUs {
+    background-color: indigo;
+    width: 100%;
+    height: 800px;
+    margin-top: 100px;
+    margin-top: 0;
+}
+
+
+.homeContainer {
+    height: 800px;
+    width: 1200px;
+    background-color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 135px;
+    margin-top: 120px;
+}
+
+.homeGreet {
+    padding-top: 120px;
+}
+
+.homeGreet2 {
+    margin-top: -10px;
+}
+
+.clientsContainer {
+    height: 500px;
+    width: 1200px;
+    background-color: green;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 135px;
+    margin-top: -23px;
+}
+
+.clientsText {
+    padding-top: 70px;
+}
+
+/* balikan kita */
+.redLine {
+    color: red;
+    margin: 25px auto 30px;
+    max-width: 90px;
+    border-top: solid 5px;
+    text-align: center;
+}
+
+.servicesContainer {
+    height: 700px;
+    width: 1200px;
+    background-color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 135px;
+    margin-top: -25px;
+}
+
+.servicesText {
+    font-size: 30px;
+    padding-top: 70px;
+    text-decoration: none;
+}
+
+span {
+    color: red;
+}
+
+.aboutUsContainer {
+    height: 700px;
+    width: 1200px;
+    background-color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 135px;
+    margin-top: -25px;
+}
+
+.contactUsContainer {
+    height: 700px;
+    width: 1200px;
+    background-color: gray;
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-left: 135px;
+    margin-top: -25px;
+}
